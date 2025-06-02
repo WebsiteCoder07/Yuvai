@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuvraj's AI Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Yuvraj's AI Chatbot</h1>
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Type your message here..."
+        autocomplete="off"
+      />
+      <button id="send-btn">Send</button>
+    </div>
+
+    <div class="upload-area">
+      <label for="file-upload" class="file-label">Upload Text File (optional)</label>
+      <input type="file" id="file-upload" accept=".txt" />
+      <textarea id="file-content" readonly placeholder="Uploaded file content will appear here..."></textarea>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
